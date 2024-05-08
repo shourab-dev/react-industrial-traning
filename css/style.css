@@ -1,0 +1,111 @@
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h2.accordion-button {
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+}
+hr{
+  border-top: 1px solid red;
+  width: 100%;
+  margin: 10px 0;
+}
+
+ul,
+ol,
+li,
+p {
+  font-weight: 600;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header h2 {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.header h5 {
+  font-weight: 700;
+}
+
+.accordion-body {
+  background-color: #f1f6fa;
+}
+
+.accordion-body ul li {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ee2e24;
+}
+
+.left_menu {
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  width: 350px;
+}
+
+.left_menu_inner {
+  width: 100%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: #ee2e24;
+}
+
+.left_menu nav a {
+  font-weight: 600;
+  color: #ee2e24;
+  font-size: 14px;
+  padding: 0.3rem 1rem;
+}
+
+.left_menu nav a:hover {
+  color: #ee2e24;
+}
+
+.left_menu nav h2 {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #e7f1ff;
+  color: #000;
+  padding-left: 15px;
+
+}
+
+.nav-pills .nav-link{
+  width: 100%;
+}
+
+.footer-logo{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+
+}
+.footer-logo img{
+  width: 80px;
+}
